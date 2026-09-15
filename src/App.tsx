@@ -16,10 +16,10 @@ import {
   Clock
 } from 'lucide-react';
 
-const CAL_URL = "https://cal.com/npj239";
-const CAL_CRM_URL = "https://cal.com/npj239/crm";
-const CAL_OPS_URL = "https://cal.com/npj239/int-ops";
-const CAL_BOTH_URL = "https://cal.com/npj239/30min";
+const CAL_URL = "https://cal.com/npj239/20min";
+const CAL_CRM_URL = CAL_URL;
+const CAL_OPS_URL = CAL_URL;
+const CAL_BOTH_URL = CAL_URL;
 
 const CRM_DEMO_URL = "https://crm-demo.jnavaneet.in";
 const OPS_DEMO_URL = "https://intops-demo.jnavaneet.in";
@@ -132,7 +132,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center text-[14px] font-medium text-white bg-[#004080] hover:bg-[#003060] active:bg-[#00254D] transition-colors px-6 py-3 rounded-[10px]"
               >
-                Book a 15-minute call
+                Book a 20-minute call
               </a>
 
               <a
@@ -404,16 +404,6 @@ export default function App() {
                     </li>
                   </ul>
                 </div>
-
-                <a
-                  id="pkg-crm-cta"
-                  href={CAL_CRM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center text-[13px] font-medium text-[#0D1527] bg-[#EBF1F8] border border-[#D0DEEE] hover:border-[#004080] hover:text-[#004080] transition-colors py-2.5 rounded-[8px]"
-                >
-                  Book for The CRM
-                </a>
               </div>
 
               {/* Package 2: The Internal Ops Suite */}
@@ -450,16 +440,6 @@ export default function App() {
                     </li>
                   </ul>
                 </div>
-
-                <a
-                  id="pkg-ops-cta"
-                  href={CAL_OPS_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center text-[13px] font-medium text-[#0D1527] bg-[#EBF1F8] border border-[#D0DEEE] hover:border-[#004080] hover:text-[#004080] transition-colors py-2.5 rounded-[8px]"
-                >
-                  Book for Ops Suite
-                </a>
               </div>
 
               {/* Package 3: Both Together */}
@@ -502,16 +482,6 @@ export default function App() {
                     </li>
                   </ul>
                 </div>
-
-                <a
-                  id="pkg-both-cta"
-                  href={CAL_BOTH_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center text-[13px] font-medium text-white bg-[#004080] hover:bg-[#003060] active:bg-[#00254D] transition-colors py-2.5 rounded-[8px]"
-                >
-                  Book Both Systems
-                </a>
               </div>
             </div>
 
@@ -529,10 +499,10 @@ export default function App() {
                     <h4 className="font-serif text-lg text-[#0D1527] font-normal">
                       Make it yours
                     </h4>
-                    <span className="text-[14px] font-mono text-[#004080] font-medium">+$300</span>
+                    <span className="text-[14px] font-mono text-[#004080] font-bold">+$300</span>
                   </div>
                   <p className="text-[14px] text-[#4F5E7B] mt-1 leading-relaxed max-w-2xl">
-                    A dedicated self-service settings screen so your administrators can add custom fields, rename stages, manage users, and edit outbound templates without code edits.
+                    A dedicated self-service and Visual editor screen so your admins can update the web applications without code edits.
                   </p>
                 </div>
               </div>
@@ -722,7 +692,7 @@ export default function App() {
                     We map your existing bottlenecks, your exact stage names, your custom fields, and team responsibilities.
                   </p>
                   <div className="mt-4 pt-3 border-t border-[#D0DEEE] flex items-center text-[12px] font-mono text-[#5B677E]">
-                    <span className="text-[#004080] font-medium mr-2">OUTCOME:</span>
+                    <span className="text-[#004080] font-bold mr-2">OUTCOME:</span>
                     <span>Process blueprint & workflow definition</span>
                   </div>
                 </div>
@@ -873,7 +843,7 @@ export default function App() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center text-[14px] font-medium text-white bg-[#004080] hover:bg-[#003060] active:bg-[#00254D] transition-colors px-6 py-3 rounded-[10px]"
                 >
-                  Book a 15-minute call
+                  Book a 20-minute call
                 </a>
               </div>
             </div>
