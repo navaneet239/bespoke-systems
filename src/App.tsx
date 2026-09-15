@@ -892,10 +892,10 @@ export default function App() {
 
             <div className="flex items-center font-mono text-[12px]">
               <a 
-                href="mailto:hello@jnavaneet.in" 
+                href="mailto:hi@jnavaneet.in" 
                 className="text-[#004080] hover:underline font-medium"
               >
-                hello@jnavaneet.in
+                hi@jnavaneet.in
               </a>
             </div>
           </div>
